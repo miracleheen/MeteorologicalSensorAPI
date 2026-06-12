@@ -1,0 +1,8 @@
+package com.sverdlov.client;
+
+public class Client {
+    public static void main(String[] args) {
+
+
+    }
+}
