@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f375010b-89bf-449a-a4ab-bda44b7cc5ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/dto/SensorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/dto/SensorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SensorApi/src/main/java/com/sverdlov/sensor/SensorApi/dto/SensorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/SensorApi/src/main/java/com/sverdlov/sensor/SensorApi/dto/SensorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestTemplateClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RestTemplateClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/GraphChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestTemplateClient/src/main/java/com/sverdlov/client/GraphChart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3F3ZqUSn1ARznoblW4Oyk4FjYKl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +42,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.TemperatureChartViewer.executor": "Run",
     "JUnit.All in RestTemplateClient.executor": "Run",
     "JUnit.ClientTest.executor": "Run",
     "Maven.meteorological-sensor-api [clean].executor": "Run",
@@ -65,9 +68,22 @@
       <recent name="com.sverdlov.client.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.TemperatureChartViewer">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sverdlov.client.Client" />
+      <module name="RestTemplateClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sverdlov.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureChartViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sverdlov.client.TemperatureChartViewer" />
       <module name="RestTemplateClient" />
       <extension name="coverage">
         <pattern>
@@ -192,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemperatureChartViewer" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.ClientTest" />
         <item itemvalue="JUnit.All in RestTemplateClient" />
@@ -216,11 +233,22 @@
       <updated>1781305903694</updated>
       <workItem from="1781305904805" duration="147000" />
       <workItem from="1781306062209" duration="3409000" />
-      <workItem from="1781353205741" duration="5210000" />
+      <workItem from="1781353205741" duration="9591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
